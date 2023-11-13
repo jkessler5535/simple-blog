@@ -15,7 +15,7 @@ const Home = ()=> {
           <h4>Recent Posts</h4>
             <ul className="blog-posts">
               <li>
-                <a href="/blog" className="blog-post">Importance of Fasting
+                <a href="/blog1" className="blog-post">Importance of Fasting
                 </a>
               </li>
             </ul>
