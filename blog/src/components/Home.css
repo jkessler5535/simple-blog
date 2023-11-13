@@ -1,0 +1,36 @@
+.home-page{
+  display:block;
+  margin-top:8rem;
+  margin-left: 3rem;
+  letter-spacing: 0.15em;
+}
+
+.intro-heading {
+  color:white;
+  display:block;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bold;
+  
+
+}
+
+.sub-heading {
+  display: block;
+  font-weight: 300;
+  color: rgb(173,219,103);
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+#blogs a:hover{
+  color:  yellow;
+}
+
+.blog-post {
+ text-decoration: none;
+}
+
+
+
+
