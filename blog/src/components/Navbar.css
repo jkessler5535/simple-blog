@@ -1,37 +1,85 @@
+
    /* navbar.css */
 
    .navbar {
     display: flex;
     justify-content: space-between;
-    color:#ffa500;
     align-items:center;
-    margin-top: 3rem;
-    margin-left:2rem;
-   
+    
+    
+  
   }
   .logo{
-    font-size: 1.4rem;
-    margin-left:1rem;
-   
+    font-family: cursive, sans-serif;
+    font-size: 1.6rem;
+    padding-left:1rem;
+    letter-spacing: 0.1rem;
+    color: #333;
+  
   }
   
-  .navbar-links {
+  .navbar-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 1.2rem;
+    margin-left: auto;
   }
   
-  .navbar-links a {
-    padding-left: 1rem;
-    color: #fff;
-    margin-right: 1.4rem;
+  .navbar-nav a {
+    color: #333;
     text-decoration: none;
+    margin-right: 1rem;
 
   
   }
-  .navbar-links a:hover {
-    color: #ffa500;
+  .navbar-nav a:hover {
+    color: #333;
     text-decoration: none;
     
   }
+  
+
+/* CSS code for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .navbar{
+    padding: 0.25rem 3rem;
+
+  }
+  .navbar-toggler {
+    border: none;
+    background: transparent;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .collapse.show {
+    display: block;
+  }
+
+  .navbar-collapse {
+    display: none;
+    text-align: center;
+  }
+
+  #navbar-nav {
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    margin-top: 8px;
+  }
+  
+  /* Hover effect for dropdown menu links */
+  .navbar-nav .nav-item .dropdown-menu a.nav-link:hover {
+    background-color: lightgray;
+    color: white;
+  }
+}
