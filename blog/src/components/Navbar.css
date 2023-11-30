@@ -5,15 +5,15 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
+   
     
-    
-  
   }
   .logo{
     font-family: cursive, sans-serif;
     font-size: 1.6rem;
     padding-left:1rem;
     letter-spacing: 0.1rem;
+    font-weight:bold;
     color: #333;
   
   }
@@ -30,25 +30,44 @@
     color: #333;
     text-decoration: none;
     margin-right: 1rem;
+    position: relative;
+    
 
   
   }
-  .navbar-nav a:hover {
-    color: #333;
-    text-decoration: none;
-    
+  .navbar-nav a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.50px;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
   }
+
+  a:hover::after{
+    visibility: visible;
+    transform: scale(1);
+  }
+
+
   
 
 /* CSS code for screens with a maximum width of 768px */
 @media (max-width: 768px) {
-  .navbar{
-    padding: 0.25rem 3rem;
-
-  }
   .navbar-toggler {
     border: none;
     background: transparent;
+    outline: none;
+    cursor: pointer;
+
+  }
+  #navbarNav ul li a:hover {
+    background-color: #8A9A5B;
+    padding: 0.50rem;
   }
 
   .navbar-toggler:focus {
@@ -69,17 +88,40 @@
     text-align: center;
   }
 
-  #navbar-nav {
+  .navbar-nav {
     margin-top: 10px;
   }
 
   .nav-item {
     margin-top: 8px;
   }
-  
-  /* Hover effect for dropdown menu links */
-  .navbar-nav .nav-item .dropdown-menu a.nav-link:hover {
-    background-color: lightgray;
-    color: white;
+}
+
+/* THis will target screens that are smaller than the Bootstrap "lg" breakpoint (768px) */
+
+@media (max-width: 767.98px) {
+  .navbar .container {
+    width: 100%;
   }
+}
+
+
+/* smartphones and smaller devices */
+@media (max-width: 576px) {
+ .navbar {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .navbar-toggler-icon {
+  flex: 0 0 auto;
+ }
+
+ .logo {
+  flex: 2 0 auto;
+  order: 0;
+  margin-left: 0;
+ }
 }
