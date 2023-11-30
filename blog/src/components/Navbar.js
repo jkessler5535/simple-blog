@@ -24,8 +24,8 @@ const Navbar = () => {
 
 
   return (
-  <div className="container">
-    <nav className="navbar navbar-expand-md navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light w-100 bg-light background-color: #CCCCCC">
+      <div className="container-fluid">
     <div className="logo navbar-brand">Wellness Chick</div>
       <button className="navbar-toggler" type="button" onClick={toggleNavbar}>
         <span className="navbar-toggler-icon"></span>
@@ -43,12 +43,11 @@ const Navbar = () => {
               <a href="https://twitter.com" className="nav-link" target="_blank" rel="noreferrer">Twitter</a>
             </li>
           </ul>
-          <ul className="dropdown-menu">
-
-          </ul>
+          <ul className="dropdown-menu"></ul>
+      </div>
     </div>
 </nav>
-</div>
+
   );
 };
 
