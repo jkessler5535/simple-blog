@@ -78,7 +78,7 @@
 
 }
 .blog-section h4 {
-  font-size: 24px;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.9);
@@ -102,6 +102,12 @@
   padding: 10px;
   text-align: center;
 
+}
+.blog-section li a {
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgba(0, 0, 0, 0.6);
+  font-size: 1.2rem;
 }
 
 /* styles for blog section end */
