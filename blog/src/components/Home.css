@@ -40,14 +40,12 @@
 
 .inner-content h1 {
   font-size: 4rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #333;
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  letter-spacing: 2px;
   white-space: nowrap;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -108,6 +106,9 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:rgba(0, 0, 0, 0.6);
   font-size: 1.2rem;
+}
+.blog-section li a:hover{
+  color: #333;
 }
 
 /* styles for blog section end */

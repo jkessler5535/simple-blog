@@ -31,10 +31,14 @@
     text-decoration: none;
     margin-right: 1rem;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
     
-
-  
   }
+  .navbar-nav a:hover{
+    color:#666;
+  }
+  
+  
   .navbar-nav a::after {
     content: "";
     position: absolute;
