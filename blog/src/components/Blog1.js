@@ -4,6 +4,7 @@ import './Blog1.css';
 const Blog1 = () => {
   return (
   <div className="blog-content">
+    
     <h1>Fasting and Intermittent Fasting</h1>
 
     <p>Fasting, a centuries-old practice, has proven to be highly effective in enhancing overall health and well-being. One popular approach to fasting is intermittent fasting, which involves periods of intentional food abstention throughout the day or week.</p>
@@ -51,6 +52,8 @@ const Blog1 = () => {
     </ul>
 
     <p>Intermittent fasting can be a safe practice for many individuals; however, it may not be suitable for everyone. If you are pregnant or breastfeeding, skipping meals may not be the ideal method for managing your weight. Additionally, if you have medical conditions such as kidney stones, gastroesophageal reflux, or diabetes, it is crucial to consult with your doctor before beginning intermittent fasting.</p>
+     
+    
   </div>
   );
 }

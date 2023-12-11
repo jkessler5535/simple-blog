@@ -34,6 +34,9 @@ const Home = () => {
             <li>
               <a href="/blog1" className="blog-post">Importance of Fasting</a>
             </li>
+            <li>
+              <a href="/blog2" className="blog-post">Vitamin D</a>
+            </li>
           </ul>
         </div>
       </div>

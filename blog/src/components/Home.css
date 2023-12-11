@@ -111,7 +111,7 @@
   color: #333;
 }
 
-/* styles for blog section end */
+/* Media query styles for blog section end */
 
 @media only screen and (max-width: 600px) {
   .content {
@@ -135,17 +135,18 @@
 
 @media only screen and (max-width: 400px) {
   .inner-content h1 {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
 
   .inner-content p {
     font-size: 12px;
+    text-align: center;
   }
 }
 
 @media (max-width: 768px) {
   .inner-content h1 {
-    font-size: 4.5vw;
+    font-size: 6vw;
   }
 }
 
