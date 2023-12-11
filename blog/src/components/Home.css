@@ -99,6 +99,9 @@
   box-shadow: 0 2px 4px rgba (0,0,0, 0.01);
   padding: 10px;
   text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items:center;
 
 }
 .blog-section li a {
@@ -111,9 +114,9 @@
   color: #333;
 }
 
-/* Media query styles for blog section end */
+/* Media query styles for blog section  */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .content {
     margin-top: 1rem;
   }
@@ -133,7 +136,8 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 500px) {
   .inner-content h1 {
     font-size: 6.5vw;
   }
@@ -144,17 +148,3 @@
   }
 }
 
-@media (max-width: 768px) {
-  .inner-content h1 {
-    font-size: 6vw;
-  }
-}
-
-
-/* Media for Blog section */
-
-@media screen and (max-width: 600px) {
- .blog-section ul {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
- }
-}

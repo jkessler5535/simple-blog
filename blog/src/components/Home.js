@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home-page">
       <div className="hero">
         <div className="hero-img-container">
-          <img src={coffeeImage} alt="coffee/kamal-preet" className="hero-img" style={{ backgroundColor: "#ced4da", maxWidth: "80%", height: "auto" }} />
+          <img src={coffeeImage} alt="coffee/kamal-preet" className="hero-img img-fluid" style={{ backgroundColor: "#ced4da", maxWidth: "85%", height: "auto" }} />
         </div>
           <div className="content">
             <div className="inner-content">
@@ -32,10 +32,10 @@ const Home = () => {
           <h4>Recent Posts</h4>
           <ul className='blog-posts'>
             <li>
-              <a href="/blog1" className="blog-post">Importance of Fasting</a>
+              <a href="/blog1" className="blog-post ">Importance of Fasting</a>
             </li>
             <li>
-              <a href="/blog2" className="blog-post">Vitamin D</a>
+              <a href="/blog2" className="blog-post vitamin">Vitamin D</a>
             </li>
           </ul>
         </div>
