@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home-page">
       <div className="hero">
         <div className="hero-img-container">
-          <img src={coffeeImage} alt="coffee/kamal-preet" className="hero-img img-fluid" style={{ backgroundColor: "#ced4da", maxWidth: "85%", height: "auto" }} />
+          <img src={coffeeImage} alt="coffee/kamal-preet" className="hero-img img-fluid" style={{ backgroundColor: "#ced4da", maxWidth: "80%", height: "auto" }} />
         </div>
           <div className="content">
             <div className="inner-content">
@@ -24,7 +24,7 @@ const Home = () => {
             </div>
           </div>
       </div>
-      <hr></hr>
+      <hr className="divider"></hr>
       
 
       <div className="blog-section">

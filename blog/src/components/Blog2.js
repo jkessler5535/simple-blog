@@ -110,7 +110,7 @@ const Blog2 = () => {
           <strong>Thiazide diuretics:</strong> Taking these blood pressure drugs with vitamin D increases your risk of hypercalcemia.
         </li>
       </ul>
-      <a href="#top" className="back-to-top">Back to Top<span class="arrow"></span></a>
+      <a href="#top" className="back-to-top">Back to Top<span className="arrow"></span></a>
   </div>
   );
 }
