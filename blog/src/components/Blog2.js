@@ -1,6 +1,5 @@
 import React from 'react';
-import './Blog2.css';
-import {Link} from 'react-router-dom';
+import HomeUp from './Home-Up.js';
 
 
 
@@ -111,12 +110,7 @@ const Blog2 = () => {
           <strong>Thiazide diuretics:</strong> Taking these blood pressure drugs with vitamin D increases your risk of hypercalcemia.
         </li>
       </ul>
-
-      <div className="page">
-        <a href="/" class="back-home">Go back to <span>Home</span></a>
-        <a href="#top" className="back-to-top">Back to top
-        </a>
-      </div>
+      <HomeUp/>
     </div>
   );
 };

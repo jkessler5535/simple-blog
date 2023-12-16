@@ -1,3 +1,6 @@
+
+/* styles for img & content */
+
 .hero {
   display: flex;
   justify-content:center;
@@ -68,7 +71,7 @@
   margin-bottom: 3rem;
 }
 
-/* Styles for Blog section */
+/* Styles for Recent Posts section*/
 .blog-section {
   background-color: rgba(211, 211, 211, 0.5);
   padding: 25px;
@@ -114,12 +117,14 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:rgba(0, 0, 0, 0.6);
   font-size: 1.2rem;
+
 }
+
 .blog-section li a:hover{
   color: #333;
 }
 
-/* Media query styles for blog section  */
+/* Media query styles */
 
 @media only screen and (max-width: 767px) {
   .content {

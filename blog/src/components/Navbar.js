@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Navbar.css';
 import $ from 'jquery';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const toggleNavbar = () => {
