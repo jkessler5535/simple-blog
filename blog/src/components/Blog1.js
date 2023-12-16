@@ -1,5 +1,6 @@
 import React from 'react';
 import './Blog1.css';
+import { Link } from "react-router-dom";
 
 const Blog1 = () => {
   return (
@@ -53,7 +54,7 @@ const Blog1 = () => {
 
     <p>Intermittent fasting can be a safe practice for many individuals; however, it may not be suitable for everyone. If you are pregnant or breastfeeding, skipping meals may not be the ideal method for managing your weight. Additionally, if you have medical conditions such as kidney stones, gastroesophageal reflux, or diabetes, it is crucial to consult with your doctor before beginning intermittent fasting.</p>
      
-    
+    <Link to="/">Go back to Home</Link>
   </div>
   );
 }
