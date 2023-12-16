@@ -1,23 +1,17 @@
-
-.back-to-top {
-  padding: 8px;
-  text-decoration: none;
-  margin-left: 85%;
-  padding-top: 8rem;
-  text-decoration: none;
-  color: rgba(19, 89, 5, 4);
+.page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.back-to-top:hover{
-  color:#fff;
+.page .back-home, .page .back-to-top {
+  padding: 8px; 
+  text-decoration: none;
+  color: rgba(19, 89, 5, 4); 
 }
 
-.arrow {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-top: 2px solid #888;
-  border-right: 2px solid #888;
-  transform: rotate(-45deg);
-  margin-left: 0.50rem;
+.page .back-to-top:hover,
+.page .back-home:hover {
+  color: #fff; 
+  text-decoration: underline ;
 }
