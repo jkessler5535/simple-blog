@@ -47,7 +47,7 @@
     height: 0.50px;
     bottom: 0;
     left: 0;
-    background-color: green;
+    background-color: rgba(19, 89, 5, 4);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
@@ -71,7 +71,6 @@
 
   }
   #navbarNav ul li a:hover {
-    background-color: rgba(19, 89, 5, 4);
     padding: 0.50rem;
   }
 
