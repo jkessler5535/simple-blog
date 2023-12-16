@@ -113,7 +113,7 @@ const Blog2 = () => {
       </ul>
 
       <div className="page">
-        <a href="#" class="back-home">Go back to <span>Home</span></a>
+        <a href="/" class="back-home">Go back to <span>Home</span></a>
         <a href="#top" className="back-to-top">Back to top
         </a>
       </div>
