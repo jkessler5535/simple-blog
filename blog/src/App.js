@@ -1,4 +1,5 @@
 import './App.css';
+import React, {useState} from 'react';
 import Blog1 from "./components/Blog1.js";
 import Blog2 from "./components/Blog2.js";
 import Home from "./components/Home.js";
@@ -7,7 +8,9 @@ import Navbar from './components/Navbar.js';
 import Footer from './components/Footer';
 
 
-const App = ()=> {
+
+
+const App = () => {
   return (
     <div className="container">
       <Navbar/>
@@ -15,7 +18,7 @@ const App = ()=> {
         <Route path ='/' element={<Home/>} />
         <Route path ='/blog1' element={<Blog1/>} />
         <Route path ='/blog2' element={<Blog2/>} />
-      </Routes>
+      </Routes>  
       <Footer/>
     </div>
   );

@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './Home.css';
 import coffeeImage from '../images/coffee.jpg';
+import EmailSignUpPopUp from './Modal';
 
 const Home = () => {
+  const [showModal, setShowModal] = useState(true);
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  }
+  
   return (
     <div className="home-page">
       <div className="hero">
@@ -40,6 +47,7 @@ const Home = () => {
           </ul>
         </div>
       </div>
+      {showModal && <EmailSignUpPopUp handleCloseModal={handleCloseModal} />}
     </div>
 
  
