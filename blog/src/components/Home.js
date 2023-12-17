@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import './Home.css';
 import coffeeImage from '../images/coffee.jpg';
 import EmailSignUpPopUp from './Modal';
@@ -43,6 +43,9 @@ const Home = () => {
             </li>
             <li>
               <a href="/blog2" className="blog-post vitamin">Vitamin D</a>
+            </li>
+            <li>
+              <a href="/blog3" className="blog-post ">How Many Hours of Sleep are Enough?</a>
             </li>
           </ul>
         </div>
