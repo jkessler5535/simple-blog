@@ -8,7 +8,7 @@ const Blog4 = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const timeRemaining = getTimeRemaining("Dec 26, 2023");
+      const timeRemaining = getTimeRemaining("Dec 31, 2023");
       setCountdown(timeRemaining);
     }, 1000);
 
@@ -29,7 +29,7 @@ const Blog4 = () => {
     <div className="blog4">
       <Container>
         <div className="Jumbotron countdown-section">
-          <h1 className="text-center">Page Coming Soon!</h1>
+          <h1 className="text-center p-4 ">Page Coming Soon!</h1>
           <div className="countdown">
             <div className="countdown-item">
               <h2>{countdown.days}</h2>
