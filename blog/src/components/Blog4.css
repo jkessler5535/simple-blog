@@ -1,0 +1,43 @@
+/* Styles for blog4.js countdown timer */
+
+.blog4 {
+  display: flex;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 6rem;
+  margin: auto;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.countdown-section {
+  padding-bottom: 2rem;
+
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.countdown-item {
+  text-align: center;
+}
+
+.countdown-item h2 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.countdown-item p {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

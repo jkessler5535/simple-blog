@@ -3,6 +3,8 @@ import './Home.css';
 import coffeeImage from '../images/coffee.jpg';
 import EmailSignUpPopUp from './Modal';
 
+
+
 const Home = () => {
   const [showModal, setShowModal] = useState(true);
 
@@ -42,10 +44,19 @@ const Home = () => {
               <a href="/blog1" className="blog-post ">Importance of Fasting</a>
             </li>
             <li>
-              <a href="/blog2" className="blog-post vitamin">Vitamin D</a>
+              <a href="/blog2" className="blog-post ">Vitamin D</a>
             </li>
             <li>
-              <a href="/blog3" className="blog-post ">How Many Hours of Sleep are Enough?</a>
+              <a href="/blog3" className="blog-post">How Many Hours of Sleep are Enough?</a>
+            </li>
+            <li>
+              <a href="/blog4" className="blog-post">Are Probiotics Important?</a>
+            </li>
+            <li>
+              <a href="/blog5" className="blog-post">Vitamin B12</a>
+            </li>
+            <li>
+              <a href="/blog6" className="blog-post">Many Uses of Aloe Vera</a>
             </li>
           </ul>
         </div>

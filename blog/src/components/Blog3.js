@@ -1,6 +1,5 @@
 import React from 'react';
 import HomeUp from './Home-Up.js';
-import './Blog3.css'
 import { Table } from "react-bootstrap";
 import SleepChart from './SleepChart.js';
 
@@ -97,8 +96,6 @@ const Blog3 = () => {
       <li>Increased likelihood of stroke</li>
       <li>Elevated risk of depression</li>
     </ul>
-
-
     <SleepChart/>
     <HomeUp/>
   </div>
