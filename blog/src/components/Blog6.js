@@ -1,5 +1,6 @@
 import React from "react";
 import HomeUp from './Home-Up.js';
+import GraphChart from './AloeGraph.js';
 
 function Blog6() {
   return (
@@ -49,6 +50,7 @@ function Blog6() {
       <p><strong>Safety and side effects</strong></p>
       <p>Aloe gel is generally considered safe when appropriately applied to the skin. It might be safe when appropriate doses are taken orally for a short time.</p>
       <p>Aloe latex or whole-leaf extract taken orally might be unsafe and is likely unsafe in high doses. Taking 1 gram a day of aloe latex for several days can cause acute kidney failure and can be fatal. Aloe latex might also have the potential to cause cancer. Other side effects include abdominal cramps and diarrhea. Oral use of aloe latex and whole-leaf extract isn't recommended for children younger than age 12.</p>
+      <GraphChart/>
 
       <h2>Possible interactions include:</h2>
       <ul>
