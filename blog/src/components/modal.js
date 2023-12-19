@@ -17,8 +17,10 @@ const EmailSignUpPopUp = () => {
   const handleFormSubmit = (event) => {
     event.preventDefault();
   
-    setSubmitted(true);
-  };
+    if (email) {
+      setSubmitted(true);
+    }
+};
 
   return (
     <div>
